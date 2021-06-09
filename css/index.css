@@ -24,9 +24,11 @@ li{
     color: rgb(137,128,130);
 }
 
-
-.about-backround{
- background-image: url(img/shelf-with-wine.webp);
+.photo-backround{
+    background-image: url(img/optimized_man-and-woman.webp); 
+}
+.about{
+ background-image: url(img/soave-backround.webp);
  size: 360x;
 }
 
