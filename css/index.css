@@ -1,39 +1,31 @@
-/* Khrystyna */
-
-body{
- background: #261e1c;
+/* Khrystyna  */
+body {
+  background: #261e1c;
 }
 
-h6{
- text-align: center;
- color: #c8693a;
-    
+h6 {
+  text-align: center;
+  color: #c8693a;
 }
-h2{
-     text-align: center;
-    color: white
-
+h2 {
+  text-align: center;
+  color: white;
 }
-p{ 
-    text-align: center;
-    color: white
-
+p {
+  text-align: center;
+  color: white;
 }
-h3{ text-align: center;
-   
+h3 {
+  text-align: center;
 }
 
-
-
-
-
-
-
-
-
-.about-backround{
- background-image: url(img/shelf-with-wine.webp);
- size: 960px;
+.about-backround {
+  background-image: url(img/shelf-with-wine.webp);
+  size: 960px;
 }
 
-
+.video {
+  display: block;
+  background-image: url(//img/bg-video.png);
+  border: solid 1px #fff;
+}
