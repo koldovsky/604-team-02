@@ -3,7 +3,10 @@
   padding: 0;
   color: #fff;
 }
-
+header {
+  background-color: #fff;
+  padding: 20px;
+}
 main {
   background-color: #261e1c;
 }
