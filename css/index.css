@@ -84,3 +84,31 @@ h3 {
 }
 
 
+/*Juliya/
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik:wght@300&display=swap');
+
+
+ .heading{
+    font-family: 'Prata', serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: left;
+  }
+ .miniblock{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #898082;
+    padding: auto;
+    text-align: left;
+}
+    .minibloks{
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+        align-items: flex-start;
+        padding: 10px;
+        margin: 20px 0;
+        text-align: left;
+    }
