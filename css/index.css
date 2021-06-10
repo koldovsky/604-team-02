@@ -1,7 +1,32 @@
 /* Khrystyna  */
 body {
   background: #261e1c;
+  max-width: 980px;
 }
+button {
+    padding: 0.35em 1.2em;
+    border: 0.2em solid #c8693a;
+    margin: 0 0.4em 0.3em 9em;
+    color: #ffffff;
+    text-align: center;
+    background-color: #c8693a;
+}
+.button-transparent{
+    padding: 0.35em 1.2em;
+    border: 0.2em solid #ffffff;
+    margin: 1.5em  0.4em 0.3em 9em;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: transparent;
+}  
+
+.button{
+    margin: auto;
+    align-items:center;
+    width: auto;
+} 
 
 h6 {
   text-align: center;
@@ -18,14 +43,44 @@ p {
 h3 {
   text-align: center;
 }
+@media (min-width: 560px) {
+    .shop-wines {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 5px;
+    }
+   
+  }
+  
+  @media (min-width: 660px) {
+    .shop-wines {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 980px) {
+    .shop-wines {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
 
-.about-backround {
-  background-image: url(img/shelf-with-wine.webp);
-  size: 960px;
+
+
+.picture-wrapper-m{
+    display: flex;
+    justify-content: center;
+
 }
+.cta-discover{
+  background-image: url(/img/optimized_man-and-woman.webp);
+  min-height: 400px;
+}
+/*  */
 
 .video {
   display: block;
   background-image: url(//img/bg-video.png);
   border: solid 1px #fff;
 }
+
+
