@@ -87,9 +87,8 @@ h3 {
 
 /*Juliya*/
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 .heading{
     font-family: 'Prata', serif;
@@ -116,7 +115,7 @@ h3 {
   text-align: left;
 }
 
-.page {
+.page-name {
   font-family: 'Great Vibes', cursive;
   font-size: 14px;
   color: #C8693A;
@@ -143,7 +142,7 @@ h3 {
     margin: 0 auto;
     padding: 0 24px;
  }
-.whole-section{
+.page-section{
   position: relative;
   min-width: 320px;
   padding-top: 90px;
