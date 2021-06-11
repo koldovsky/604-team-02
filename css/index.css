@@ -69,6 +69,7 @@ h3 {
 .picture-wrapper-m{
     display: flex;
     justify-content: center;
+   
 
 }
 .cta-discover{
@@ -84,31 +85,80 @@ h3 {
 }
 
 
-/*Juliya/
+/*Juliya*/
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 
- .heading{
+.heading{
     font-family: 'Prata', serif;
     font-size: 18px;
     color: #ffffff;
     text-align: left;
   }
- .miniblock{
-    font-family: 'Rubik', sans-serif;
+
+.miniblock{
+  font-family: 'Rubik', sans-serif;
     font-size: 14px;
     color: #898082;
     padding: auto;
     text-align: left;
+    word-wrap: break-word;
 }
-    .minibloks{
-        display: block;
-        margin-left: 15px;
-        margin-right: 15px;
-        align-items: flex-start;
-        padding: 10px;
-        margin: 20px 0;
-        text-align: left;
-    }
+.minibloks{
+  display: block;
+  margin-left: 15px;
+  margin-right: 15px;
+  align-items: flex-start;
+  padding: 10px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.page {
+  font-family: 'Great Vibes', cursive;
+  font-size: 14px;
+  color: #C8693A;
+}
+
+ .accordion-title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+ }
+
+ .title {
+    font-family: 'Prata', serif;
+    font-size: 28px;
+}
+
+ .picture-wrapper-m {
+    display: block;
+    position: relative;
+ }
+
+ .blog-about-wines{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+ }
+.whole-section{
+  position: relative;
+  min-width: 320px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: block;
+}
+    
+.new-post {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px bold;
+  display: flex;
+  height: 450px;
+  width: 100%;
+  justify-content: center;
+  font-weight: 600;
+  line-height: 32;
+  align-items: center;
+  color: white;
