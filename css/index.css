@@ -2,6 +2,7 @@
 body {
   background: #261e1c;
   max-width: 980px;
+  margin: auto;
 }
 button {
     padding: 0.35em 1.2em;
@@ -14,7 +15,6 @@ button {
 .button-transparent{
     padding: 0.35em 1.2em;
     border: 0.2em solid #ffffff;
-    margin: 1.5em  0.4em 0.3em 9em;
     color: #ffffff;
     text-decoration: none;
     text-align: center;
@@ -22,10 +22,12 @@ button {
     background-color: transparent;
 }  
 
-.button{
-    margin: auto;
-    align-items:center;
-    width: auto;
+.button-common{ 
+  align-items: center;
+  flex-direction: column;
+    display: flex;
+    justify-content: center;
+
 } 
 
 h6 {
@@ -52,7 +54,7 @@ h3 {
    
   }
   
-  @media (min-width: 660px) {
+  /* @media (min-width: 660px) {
     .shop-wines {
       grid-template-columns: 1fr 1fr;
     }
@@ -62,18 +64,21 @@ h3 {
     .shop-wines {
       grid-template-columns: 1fr 1fr 1fr;
     }
-  }
+  } */
 
 
 
-.picture-wrapper-m{
+.picture-wrapper-m {
     display: flex;
     justify-content: center;
    
 
 }
 .cta-discover{
-  background-image: url(/img/optimized_man-and-woman.webp);
+  align-items: center;
+  display: flex;
+  background-attachment: fixed;
+  background-image: url(../img/optimized_man-and-woman.webp);
   min-height: 400px;
 }
 /*  */
@@ -131,10 +136,10 @@ h3 {
     font-size: 28px;
 }
 
- .picture-wrapper-m {
+ /* .picture-wrapper-m {
     display: block;
     position: relative;
- }
+ } */
 
  .blog-about-wines{
     width: 100%;
