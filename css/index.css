@@ -53,6 +53,12 @@ h3 {
     }
    
   }
+  img{
+    max-width: 560px;
+    /* margin:auto; */
+
+
+  }
   
   /* @media (min-width: 660px) {
     .shop-wines {
@@ -81,13 +87,19 @@ h3 {
   background-image: url(../img/optimized_man-and-woman.webp);
   min-height: 400px;
 }
+.about-main{
+  background-image: url(../img/soave-backround.webp);
+  max-width: auto;
+  
+
+}
+.picture-shelf{
+  max-width: auto;
+
+}
 /*  */
 
-.video {
-  display: block;
-  background-image: url(//img/bg-video.png);
-  border: solid 1px #fff;
-}
+
 
 
 /*Juliya*/
@@ -200,7 +212,7 @@ header nav .social a {
   margin: 10px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 560px) {
   header nav {
     display: flex;
     padding: 30px;
@@ -214,3 +226,16 @@ header nav .social a {
     display: flex;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
