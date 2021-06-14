@@ -52,6 +52,10 @@ img {
   display: block;
   width: 100%;
 }
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
 
 /* Vasyl */
 header {
@@ -217,51 +221,4 @@ img {
   line-height: 32;
   align-items: center;
   color: white;
-}
-
-/* Vasyl */
-
-header nav .logo-icon {
-  display: flex;
-  height: 44px;
-  width: 176px;
-}
-
-header nav .menu a {
-  display: block;
-  font-family: "Rubik", sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  color: #ffffff;
-  text-align: center;
-  margin: 10px;
-  text-decoration: unset;
-}
-
-header .social {
-  display: flex;
-  justify-content: center;
-}
-
-header nav .social a {
-  height: 20px;
-  width: 20px;
-  padding: 0px;
-  border: 15px;
-  margin: 10px;
-}
-
-@media (min-width: 560px) {
-  header nav {
-    display: flex;
-    padding: 30px;
-    align-items: center;
-    flex: 1;
-  }
-  header .menu {
-    display: flex;
-  }
-  header .social {
-    display: flex;
-  }
 }
