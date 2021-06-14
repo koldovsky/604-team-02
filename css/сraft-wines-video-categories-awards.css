@@ -1,0 +1,61 @@
+* {
+  color: white;
+}
+.сraft-wines-video-categories-awards {
+  background: #261e1c;
+}
+
+.orange {
+  color: #c8693a;
+}
+
+.btn {
+  background-color: #c8693a;
+  margin: 20px;
+}
+
+.video {
+  background-image: url(../img/bg-video.png);
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.dush:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.arrow {
+  width: 6%;
+}
+.underline {
+}
+
+.red-wines {
+  background-image: url(../img/bg-red-wine.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.white-wines {
+  background-image: url(../img/bg-white-wine.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.discount {
+  background-image: url(../img/bg-discount.png);
+  background-size: contain;
+  background-color: #c8693a;
+}
+
+.btn-join {
+  border: solid 2px #fff;
+}

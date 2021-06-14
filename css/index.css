@@ -1,6 +1,3 @@
-
-
-
 /* Khrystyna  */
 body {
   background: #261e1c;
@@ -8,30 +5,29 @@ body {
   margin: auto;
 }
 button {
-    padding: 0.35em 1.2em;
-    border: 0.2em solid #c8693a;
-    margin: 0 0.4em 0.3em 9em;
-    color: #ffffff;
-    text-align: center;
-    background-color: #c8693a;
+  padding: 0.35em 1.2em;
+  border: 0.2em solid #c8693a;
+  margin: 0 0.4em 0.3em 9em;
+  color: #ffffff;
+  text-align: center;
+  background-color: #c8693a;
 }
-.button-transparent{
-    padding: 0.35em 1.2em;
-    border: 0.2em solid #ffffff;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-    transition: color 0.7s;
-    background-color: transparent;
-}  
+.button-transparent {
+  padding: 0.35em 1.2em;
+  border: 0.2em solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  transition: color 0.7s;
+  background-color: transparent;
+}
 
-.button-common{ 
+.button-common {
   align-items: center;
   flex-direction: column;
-    display: flex;
-    justify-content: center;
-
-} 
+  display: flex;
+  justify-content: center;
+}
 
 h6 {
   text-align: center;
@@ -49,22 +45,18 @@ h3 {
   text-align: center;
 }
 @media (min-width: 560px) {
-    .shop-wines {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 5px;
-    }
-   
+  .shop-wines {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
   }
-  img{
-    max-width: 560px;
-    display: block;
-   
+}
+img {
+  max-width: 560px;
+  /* display: block; */
+}
 
-
-  }
-  
-  /* @media (min-width: 660px) {
+/* @media (min-width: 660px) {
     .shop-wines {
       grid-template-columns: 1fr 1fr;
     }
@@ -76,57 +68,47 @@ h3 {
     }
   } */
 
-
-
 .picture-wrapper-m {
-    display: flex;
-    justify-content: center;
-   
-
+  display: flex;
+  justify-content: center;
 }
-.cta-discover{
+.cta-discover {
   align-items: center;
   display: flex;
   background-attachment: fixed;
   background-image: url(../img/optimized_man-and-woman.webp);
   min-height: 400px;
 }
-.about-main{
+.about-main {
   background-image: url(../img/soave-backround.webp);
   max-width: auto;
-  
-
 }
-.picture-shelf{
+.picture-shelf {
   max-width: auto;
-
 }
 /*  */
 
-
-
-
 /*Juliya*/
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
-.heading{
-    font-family: 'Prata', serif;
-    font-size: 18px;
-    color: #ffffff;
-    text-align: left;
-  }
-
-.miniblock{
-  font-family: 'Rubik', sans-serif;
-    font-size: 14px;
-    color: #898082;
-    padding: auto;
-    text-align: left;
-    word-wrap: break-word;
+.heading {
+  font-family: "Prata", serif;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: left;
 }
-.minibloks{
+
+.miniblock {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  color: #898082;
+  padding: auto;
+  text-align: left;
+  word-wrap: break-word;
+}
+.minibloks {
   display: block;
   margin-left: 15px;
   margin-right: 15px;
@@ -137,37 +119,37 @@ h3 {
 }
 
 .page-name {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 14px;
-  color: #C8693A;
+  color: #c8693a;
 }
 
- .accordion-title {
-  font-family: 'Rubik', sans-serif;
+.accordion-title {
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
- }
-
- .title {
-    font-family: 'Prata', serif;
-    font-size: 28px;
 }
 
- .blog-about-wines{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 24px;
- }
-.page-section{
+.title {
+  font-family: "Prata", serif;
+  font-size: 28px;
+}
+
+.blog-about-wines {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.page-section {
   position: relative;
   min-width: 320px;
   padding-top: 90px;
   padding-bottom: 90px;
   display: block;
 }
-    
+
 .new-post {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px bold;
   display: flex;
   height: 450px;
@@ -178,7 +160,7 @@ h3 {
   align-items: center;
   color: white;
 }
- 
+
 /* Vasyl */
 
 header nav .logo-icon {
@@ -189,7 +171,7 @@ header nav .logo-icon {
 
 header nav .menu a {
   display: block;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -211,7 +193,6 @@ header nav .social a {
   margin: 10px;
 }
 
-
 @media (min-width: 560px) {
   header nav {
     display: flex;
@@ -226,16 +207,3 @@ header nav .social a {
     display: flex;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
