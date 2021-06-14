@@ -38,16 +38,14 @@ a {
 
 .red-wines {
   background-image: url(../img/bg-red-wine.webp);
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
-  margin-bottom: 20px;
 }
 
 .white-wines {
   background-image: url(../img/bg-white-wine.webp);
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
-  margin-bottom: 20px;
 }
 
 .discount {
