@@ -31,11 +31,15 @@ button {
 
 h6 {
   text-align: center;
-  color: #c8693a;
+  color: white;
 }
 h2 {
   text-align: center;
   color: white;
+}
+h6 {
+  text-align: center;
+  color: #c8693a;
 }
 p {
   text-align: center;
@@ -44,6 +48,60 @@ p {
 h3 {
   text-align: center;
 }
+img {
+  display: block;
+  width: 100%;
+}
+
+/* Vasyl */
+header {
+  background-image: url(../img/bottle-and-grapes-on-table.webp);
+  width: 100%;
+}
+header nav .logo-icon {
+  display: flex;
+  height: 44px;
+  width: 176px;
+}
+header nav .menu a {
+  display: block;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px;
+  text-decoration: unset;
+}
+header .social {
+  display: flex;
+  justify-content: center;
+}
+header nav .social a {
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+  border: 15px;
+  margin: 10px;
+}
+@media (min-width: 560px) {
+  header nav {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  header .menu {
+    display: flex;
+  }
+  header .social {
+    display: flex;
+  }
+}
+
+/* Khrystyna  */
 @media (min-width: 560px) {
   .shop-wines {
     display: grid;
