@@ -17,15 +17,24 @@ const productsJson = `
     },
     {
         "id": "4",
-        "id": "2",
-        "title": "Banana",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita obcaecati adipisci explicabo impedit facere est qui voluptate. Fugiat libero molestiae suscipit eaque quae nihil sequi esse numquam dolor nisi!",
-        "price": 12.99,
-        "imgUrl": "img/banana.svg"
+        
     },
        
     },
   
 ]
 `;
+ function renderProducts(products) {
+     let productsHtml = '';
+     for (const product of products) {
+        productsHtml += <article>
+             <img src="${product.imgUrl}" alt="${product.title}" />
+             <p class="text-link">${product.title}</p>
+             <p class="price"> - $${product.price}</p>
+             <button class="buttom">Add to cart</button>
+        </article>
+
+     }
+     document.querySelector('.products').innerHTML = productsHtml;
+ }
 
