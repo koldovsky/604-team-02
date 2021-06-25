@@ -16,8 +16,8 @@
 
 .video {
   background-image: url(../img/bg-video.png);
-  background-attachment: scroll;
-  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
 }
 
 a {
