@@ -2,46 +2,22 @@ const productsJson = `
 [
     {
         "id": "1",
-        "title": "Baby Yoda",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita obcaecati adipisci explicabo impedit facere est qui voluptate. Fugiat libero molestiae suscipit eaque quae nihil sequi esse numquam dolor nisi!",
-        "price": 10.99,
-        "imgUrl": "img/baby-yoda.svg"
+       
     },
     {
         "id": "2",
-        "title": "Banana",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita obcaecati adipisci explicabo impedit facere est qui voluptate. Fugiat libero molestiae suscipit eaque quae nihil sequi esse numquam dolor nisi!",
-        "price": 12.99,
-        "imgUrl": "img/banana.svg"
+       
+        
     },
     {
         "id": "3",
-        "title": "Girl",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita obcaecati adipisci explicabo impedit facere est qui voluptate. Fugiat libero molestiae suscipit eaque quae nihil sequi esse numquam dolor nisi!",
-        "price": 15.99,
-        "imgUrl": "img/girl.svg"
+     
     },
     {
         "id": "4",
-        "title": "Viking",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita obcaecati adipisci explicabo impedit facere est qui voluptate. Fugiat libero molestiae suscipit eaque quae nihil sequi esse numquam dolor nisi!",
-        "price": 13.99,
-        "imgUrl": "img/viking.svg"
+       
     },
-    {
-        "id": "5",
-        "title": "Kitten",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita obcaecati adipisci explicabo impedit facere est qui voluptate. Fugiat libero molestiae suscipit eaque quae nihil sequi esse numquam dolor nisi!",
-        "price": 18.99,
-        "imgUrl": "https://placekitten.com/200/139"
-    },
-    {
-        "id": "6",
-        "title": "Kitten",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita obcaecati adipisci explicabo impedit facere est qui voluptate. Fugiat libero molestiae suscipit eaque quae nihil sequi esse numquam dolor nisi!",
-        "price": 17.99,
-        "imgUrl": "https://placekitten.com/200/139?2"
-    }
+  
 ]
 `;
 
