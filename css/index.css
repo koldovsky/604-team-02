@@ -150,66 +150,119 @@ img {
 /*  */
 
 /*Juliya*/
-@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
-.heading {
-  font-family: "Prata", serif;
-  font-size: 18px;
-  color: #ffffff;
-  text-align: left;
+@media (min-width 650px)
+  .header-section{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+  }
+  .header-section{
+    display: grid;
+    text-align: center;
+    margin: 20px 15px 0px 15px;
+    font: inherit;
+    vertical-align: baseline;
+    justify-content: center;
+} 
+@media (min-width: 768px)
+  .section-inner{
+    padding: 0 32px;
 }
-
-.miniblock {
-  font-family: "Rubik", sans-serif;
-  font-size: 14px;
-  color: #898082;
-  padding: auto;
-  text-align: left;
-  word-wrap: break-word;
+@media (min-width: 480px)
+    .section-inner{
+    padding: 0 24px;
 }
-.minibloks {
-  display: block;
-  margin-left: 15px;
-  margin-right: 15px;
-  align-items: flex-start;
-  padding: 10px;
-  margin: 20px 0;
-  text-align: left;
-}
-
-.page-name {
-  font-family: "Great Vibes", cursive;
-  font-size: 14px;
-  color: #c8693a;
-}
-
-.accordion-title {
-  font-family: "Rubik", sans-serif;
-  font-size: 14px;
-}
-
-.title {
-  font-family: "Prata", serif;
-  font-size: 28px;
-}
-
-.blog-about-wines {
+        
+.section-inner{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
 }
-.page-section {
-  position: relative;
-  min-width: 320px;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  display: block;
+.page-name {
+  font-family: 'Great Vibes', cursive;
+  font-size: 14px ;
+  color: #C8693A;
+  margin: 10px 0px 10px 0px;
 }
+    
+.title {
+  font-family: 'Prata', serif;
+  font-size: 34px;
+  color: white;
+  margin: 10px 0px 10px 0px;
+}
+.picture-wrapper-my{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: contain;
+  object-position: 50% 50%;
+}
+/*Testimonial-section*/
+.text-content{
+  display:flex;
+  color: #898082 ;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  max-width: 100%;
+  word-wrap: break-word;
+  margin: 20px 0px 10px 0px;
+}
+  
+.carousel-item{
+  padding: 0 15px;
+}
+  
+.button{
+  size: 1px;
+  margin: 20px;
+  background-color: #C8693A;
+  box-sizing: content-box;
+}
+.carousel-item .text{
+  height: 200px;
+  margin-top: 15px;
+}
+  
+.carousel-caption{
+  width: 70%;  
+}
+.carousel-indicators {
+  margin-top: 20px;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #C8693A;
+  box-sizing: border-box;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  margin-top: 20px; 
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: #C8693A;
+  border-radius: 100%;
+  display: block;
+  width: 20px;
+  height:20px;
+  padding: 0;
+  top: 50%;
+  position: absolute;
+} 
+/*Blog-section*/
 
-.new-post {
+.section-content {
   font-family: "Rubik", sans-serif;
   font-size: 18px bold;
   display: flex;
@@ -220,4 +273,39 @@ img {
   line-height: 32;
   align-items: center;
   color: white;
+}
+/*FAQ-section*/
+.accordion-item-title{
+  width: 100%;
+  position: relative;
+  color: white;
+  background-color: #261e1c;
+  font-family: Prata, serif;
+  font-size: 22px;
+  text-align: left;
+  height: 35px;
+  vertical-align: center;
+  cursor: pointer;
+  
+}
+.accordion-item-title::before{
+  content: "+";
+  position: absolute;
+  top: 50%;
+  transform:translate(0, -50%);
+  right: 20px;
+  font-size: 24px;
+}
+.accordion-item-content{
+  position: relative;
+  color: #898082;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  height: 0;
+  overflow: hidden;
+  transition: .5s ease-in-out;
+  border-bottom: 1px solid #777;
+}
+.accordion-item.active .accordion-item-content{
+  height: 35px;
 }

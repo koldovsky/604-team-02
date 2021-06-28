@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="fonts/fontawesome-free-5.15.3-web/css/font-awesome.min.css"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css" />
     <link rel="shortcut icon" href="img/wineglass.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/сraft-wines-video-categories-awards.css" />
@@ -669,92 +670,122 @@
     </div>
     <!-- Ignatenko -->
 
-    <!--  Юля -->
-    <section>
-      <p>Testimonials</p>
-      <h2>What Our Wine-Lovers Say</h2>
-      <div class="picture-wrapper-m">
-        <img src="img/picture-wrapper.svg" alt="Pattern of grape" />
-      </div>
-      <p>
-        Wine is a bottled poetry. Read some stories from our customers below.
-      </p>
-      <div>
-        <p>
-          “I really like to please myself with good wine with a rich taste.
-          Therefore, from time to time, I order wine directly from the CaliWines
-          winery. I also buy Chardonnay and Cabernet for family holidays. We are
-          completely delighted with the amazing taste of these wines, which we
-          want to enjoy endlessly.”
-        </p>
-      </div>
-      <div>
-        <p>
-          “We were to hold a responsible event with a buffet table and wanted to
-          surprise our guests with some local products. I recalled that we have
-          the CaliWines winery in California and ordered 10 bottles of
-          Chardonnay. Our guests were delighted and asked for the name of the
-          producer!”
-        </p>
-      </div>
-      <div>
-        <p>
-          “Our restaurant has been cooperating with this winery for over 10
-          years. We order the whole range of wines from them. We are completely
-          satisfied with the quality of the wine supplied to us. And our guests
-          often choose CaliWines from our wine menu.”
-        </p>
-      </div>
-    </section>
+    <!--  Konanchuk-->
 
-    <section>
-      <p>Blog</p>
-      <h2>World of Wines</h2>
-      <div class="picture-wrapper-m">
-        <img src="img/picture-wrapper.svg" alt="Pattern of grape" />
-      </div>
-      <p>
-        Read our articles if you want to know more about wine production and
-        selection.
-      </p>
-    </section>
-
-    <div>
-      <section class="page-section">
-        <p class="page-name" id="faq">FAQ</p>
-        <h2 class="title">Have a Question?</h2>
-        <div class="wrapper">
-          <img src="img/picture-wrapper.svg" alt="picture-wrapper" />
+    <section class="conteiner">
+      <div class="section-inner">
+        <div class="header-section">
+          <div class="page-name">Testimonials</div>
+          <div class="title">What Our Wine-Lovers Say</div>
+          <div class="picture-wrapper-m">
+            <img src="img/picture-wrapper.svg" alt="picture-wrapper" />
+          </div>
+          <div class="carousel-title">
+            Wine is a bottled poetry. Read some stories from our customers below.
+          </div>
         </div>
-        <dl>
-          <dt>Are you a wholesale wine supplier?</dt>
-          <dd>
-            Our winery produces craft wine. Bulk orders are possible, but lots
-            cannot be large.
-          </dd>
-          <dd></dd>
-          <dt>Do you ship wine within the USA?</dt>
-          <dd>
-            Yes, we ship your orders to any state and city in the United States,
-            as well as abroad.
-          </dd>
-          <dt>How many varieties are there in your winery?</dt>
-          <dt></dt>
-          <dd>
-            Our winery offers wine-lovers more than 10 different varieties of
-            wines with different aging periods.
-          </dd>
-          <dt>Do you advise on the choice of wine?</dt>
-          <dd>
-            Yes. Our winery experts will tell you more about the varieties and
-            help you choose the best option for you.
-          </dd>
-          <dt>Where are your vineyards located?</dt>
-          <dd>
-            We are located in the Napa Valley, America's most famous wine
-            region.
-          </dd>
-        </dl>
+        <div id="carouselTestimonials" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#carouselTestimonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselTestimonials" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselTestimonials" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption .d-block">
+                <p class="text-content">
+                  “I really like to please myself with good wine with a rich taste.
+                  Therefore, from time to time, I order wine directly from the
+                  CliWines winery. I also buy Chardonnay and Cabernet for family
+                  holidays. We are completely delighted with the amazing taste of
+                  these wines, which we want to enjoy endlessly.”</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption .d-block">
+                  <p class="text-content">
+                  “We were to hold a responsible event with a buffet table and wanted
+                  to surprise our guests with some local products. I recalled that we
+                  have the CaliWines winery in California and ordered 10 bottles of
+                  Chardonnay. Our guests were delighted and asked for the name of the
+                  producer!”</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption .d-block">
+                <p class="text-content">
+                “Our restaurant has been cooperating with this winery for over 10
+                years. We order the whole range of wines from them. We are
+                completely satisfied with the quality of the wine supplied to us.
+                And our guests often choose CaliWines from our wine menu.”</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonials"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonials"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="conteiner>
+      <div class="section-inner">
+        <div class="header-section">
+          <div class="page-name">Blog</div>
+          <div class="title">World of Wines</div>
+          <div class="picture-wrapper-my">
+            <img src="img/picture-wrapper.svg" alt="picture-wrapper">
+          </div>
+          <div class="text">
+            Read our articles if you want to know more about wine production and selection.
+          </div>
+        </div>
+      </div>
+
+      <div class="section-content">
+        <div class="new-post">
+           No blogs post yet...
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="section-inner">
+        <div class="header-section">
+          <div class="page-name">Blog</div>
+          <div class="title">World of Wines</div>
+          <div class="picture-wrapper-my">
+            <img src="img/picture-wrapper.svg" alt="picture-wrapper">
+          </div>
+        </div>
+
+        <div class="accordion-wrapper">
+          <div class="accordion-item">
+              <div class="accordion-item-title">Are you a wholesale wine supplier?</div>
+              <div class="accordion-item-content"> Our winery produces craft wine. Bulk orders are possible, but lots cannot be large.</div>
+          </div>
+          <div class="accordion-item">
+              <div class="accordion-item-title">Do you ship wine within the USA?&nbsp;</div>
+              <div class="accordion-item-content"> Our winery offers wine-lovers more than 10 different varieties of wines with different aging periods.</div>
+          </div>
+          <div class="accordion-item">
+              <div class="accordion-item-title">How many varieties are there in your winery?</div>
+              <div class="accordion-item-content">Our winery offers wine-lovers more than 10 different varieties of wines with different aging periods.&nbsp;</div>
+          </div>
+          <div class="accordion-item">
+              <div class="accordion-item-title">Do you advise on the choice of wine?</div>
+              <div class="accordion-item-content">Yes. Our winery experts will tell you more about the varieties and help you choose the best option for you.&nbsp;</div>
+          </div>
+          <div class="accordion-item">
+              <div class="accordion-item-title">Where are your vineyards located?</div>
+              <div class="accordion-item-content"> We are located in the Napa Valley, America's most famous wine region.</div>
+          </div>
+        </div>
       </section>
 
       <div>
@@ -859,5 +890,7 @@
     ></script>
     <script src="js/products.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>
 </html>
