@@ -2,7 +2,6 @@
 body {
   background: #261e1c;
   color: white;
-  
 }
 button {
   padding: 0.35em 1.2em;
@@ -47,17 +46,16 @@ h3 {
 } */
 img {
   /* display: block; */
-  width: 100%;
+  /* width: 100%; */
 }
 h1 {
   text-align: center;
   color: #ffffff;
 }
-.about-in{
+.about-in {
   background-image: url(../img/soave-backround.webp);
   background-size: 100%;
   background-position: right;
-  
 }
 
 /* Vasyl */
@@ -157,58 +155,58 @@ img {
 /*  */
 
 /*Juliya*/
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 
 @media (min-width: 650px) {
-  .header-section{
+  .header-section {
     margin-top: 50px;
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
-  .header-section{
-    display: grid;
-    text-align: center;
-    margin: 20px 15px 0px 15px;
-    font: inherit;
-    vertical-align: baseline;
-    justify-content: center;
-} 
-@media (min-width: 768px){
-  .section-inner{
+.header-section {
+  display: grid;
+  text-align: center;
+  margin: 20px 15px 0px 15px;
+  font: inherit;
+  vertical-align: baseline;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .section-inner {
     padding: 0 32px;
+  }
 }
-}
-@media (min-width: 480px){
-  .section-inner{ 
+@media (min-width: 480px) {
+  .section-inner {
     padding: 0 24px;
- }
+  }
 }
-        
-.section-inner{
+
+.section-inner {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
 }
 .page-name {
-  font-family: 'Great Vibes', cursive;
-  font-size: 14px ;
-  color: #C8693A;
+  font-family: "Great Vibes", cursive;
+  font-size: 14px;
+  color: #c8693a;
   margin: 10px 0px 10px 0px;
 }
-    
+
 .title {
-  font-family: 'Prata', serif;
+  font-family: "Prata", serif;
   font-size: 34px;
   color: white;
   margin: 10px 0px 10px 0px;
 }
-.picture-wrapper-my{
+.picture-wrapper-my {
   display: block;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   width: 100%;
@@ -216,40 +214,40 @@ img {
   object-position: 50% 50%;
 }
 /*Testimonial-section*/
-.text-content{
-  display:flex;
-  color: #898082 ;
-  font-family: 'Rubik', sans-serif;
+.text-content {
+  display: flex;
+  color: #898082;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   justify-content: center;
   max-width: 100%;
   word-wrap: break-word;
   margin: 20px 0px 10px 0px;
 }
-  
-.carousel-item{
+
+.carousel-item {
   padding: 0 15px;
 }
-  
-.button{
+
+.button {
   size: 1px;
   margin: 20px;
-  background-color: #C8693A;
+  background-color: #c8693a;
   box-sizing: content-box;
 }
-.carousel-item .text{
+.carousel-item .text {
   height: 200px;
   margin-top: 15px;
 }
-  
-.carousel-caption{
-  width: 70%;  
+
+.carousel-caption {
+  width: 70%;
 }
 .carousel-indicators {
   margin-top: 20px;
 }
 .carousel-indicators [data-bs-target] {
-  background-color: #C8693A;
+  background-color: #c8693a;
   box-sizing: border-box;
   display: block;
   width: 10px;
@@ -258,18 +256,19 @@ img {
   cursor: pointer;
   padding: 5px;
   text-align: center;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  background-color: #C8693A;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #c8693a;
   border-radius: 100%;
   display: block;
   width: 20px;
-  height:20px;
+  height: 20px;
   padding: 0;
   top: 50%;
   position: absolute;
-} 
+}
 /*Blog-section*/
 
 .section-content {
@@ -285,7 +284,7 @@ img {
   color: white;
 }
 /*FAQ-section*/
-.accordion-item-title{
+.accordion-item-title {
   width: 100%;
   position: relative;
   color: white;
@@ -296,26 +295,25 @@ img {
   height: 35px;
   vertical-align: center;
   cursor: pointer;
-  
 }
-.accordion-item-title::before{
+.accordion-item-title::before {
   content: "+";
   position: absolute;
   top: 50%;
-  transform:translate(0, -50%);
+  transform: translate(0, -50%);
   right: 20px;
   font-size: 24px;
 }
-.accordion-item-content{
+.accordion-item-content {
   position: relative;
   color: #898082;
   font-family: Rubik, sans-serif;
   font-size: 16px;
   height: 0;
   overflow: hidden;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   border-bottom: 1px solid #777;
 }
-.accordion-item.active .accordion-item-content{
+.accordion-item.active .accordion-item-content {
   height: 35px;
 }
