@@ -1,7 +1,8 @@
 /* Khrystyna  */
 body {
   background: #261e1c;
-  margin: auto;
+  color: white;
+  
 }
 button {
   padding: 0.35em 1.2em;
@@ -28,14 +29,11 @@ button {
   justify-content: center;
 }
 
-h6 {
+/* h6 {
   text-align: center;
   color: white;
 }
-h2 {
-  text-align: center;
-  color: white;
-}
+
 h6 {
   text-align: center;
   color: #c8693a;
@@ -46,7 +44,7 @@ p {
 }
 h3 {
   text-align: center;
-}
+} */
 img {
   /* display: block; */
   width: 100%;
@@ -54,6 +52,12 @@ img {
 h1 {
   text-align: center;
   color: #ffffff;
+}
+.about-in{
+  background-image: url(../img/soave-backround.webp);
+  background-size: 100%;
+  background-position: right;
+  
 }
 
 /* Vasyl */
@@ -157,12 +161,13 @@ img {
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
-@media (min-width 650px)
+@media (min-width: 650px) {
   .header-section{
     margin-top: 50px;
     display: grid;
     grid-template-columns:1fr 1fr;
   }
+}
   .header-section{
     display: grid;
     text-align: center;
@@ -171,13 +176,15 @@ img {
     vertical-align: baseline;
     justify-content: center;
 } 
-@media (min-width: 768px)
+@media (min-width: 768px){
   .section-inner{
     padding: 0 32px;
 }
-@media (min-width: 480px)
-    .section-inner{
+}
+@media (min-width: 480px){
+  .section-inner{ 
     padding: 0 24px;
+ }
 }
         
 .section-inner{
