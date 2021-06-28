@@ -1,4 +1,7 @@
 /* Khrystyna  */
+
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
+
 body {
   background: #261e1c;
   color: white;
@@ -122,7 +125,7 @@ img {
   align-items: center;
   background-attachment: fixed;
   background-image: url(../img/optimized_man-and-woman.webp);
-  min-height: 700px;
+  min-height: 500px;
   background-size: 100%;
 }
 
@@ -142,8 +145,11 @@ img {
 .crafted-by-our-winemakers-text {
   text-align: center;
   color: #c8693a;
+  padding-block: 50px;
+  font-family: 'Aguafina Script', cursive;
 
 }
+
 .discover-our-wines-inside-text{
   text-align: center;
   color: #ffffff;
