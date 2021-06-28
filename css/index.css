@@ -139,14 +139,17 @@ img {
   background-attachment: fixed;
   background-image: url(../img/optimized_man-and-woman.webp);
   min-height: 400px;
+  background-size: 100%;
 }
 .about-main {
   background-image: url(../img/soave-backround.webp);
   max-width: auto;
+  background-size: 100%;
 }
 .picture-shelf {
   max-width: auto;
 }
+/*  */
 /*  */
 
 /*Juliya*/
