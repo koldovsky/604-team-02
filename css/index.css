@@ -25,7 +25,6 @@ button {
 .button-common {
   align-items: center;
   flex-direction: column;
-  display: flex;
   justify-content: center;
 }
 
@@ -45,20 +44,12 @@ p {
 h3 {
   text-align: center;
 } */
-img {
-  /* display: block; */
+/* img {
   width: 100%;
-}
-h1 {
-  text-align: center;
-  color: #ffffff;
-}
-.about-in{
-  background-image: url(../img/soave-backround.webp);
-  background-size: 100%;
-  background-position: right;
-  
-}
+} */
+
+
+
 
 /* Vasyl */
 header {
@@ -121,30 +112,20 @@ img {
   /* display: block; */
 }
 
-/* @media (min-width: 660px) {
-    .shop-wines {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-  
-  @media (min-width: 980px) {
-    .shop-wines {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  } */
 
-.picture-wrapper-m {
+
+.picture-wrapper{
   display: flex;
   justify-content: center;
 }
 .cta-discover {
   align-items: center;
-  display: flex;
   background-attachment: fixed;
   background-image: url(../img/optimized_man-and-woman.webp);
-  min-height: 400px;
+  min-height: 700px;
   background-size: 100%;
 }
+
 .about-main {
   background-image: url(../img/soave-backround.webp);
   max-width: auto;
@@ -153,6 +134,29 @@ img {
 .picture-shelf {
   max-width: auto;
 }
+.about-in{
+  background-image: url(../img/soave-backround.webp);
+  background-size: 100%;
+  background-position: right; 
+}
+.crafted-by-our-winemakers-text {
+  text-align: center;
+  color: #c8693a;
+
+}
+.discover-our-wines-inside-text{
+  text-align: center;
+  color: #ffffff;
+}
+ .pict-wrap{
+  justify-content: center;
+}
+.find-your-ideal-text{
+  text-align: center;
+  color: #ffffff;
+
+}
+
 /*  */
 /*  */
 
