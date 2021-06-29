@@ -58,7 +58,7 @@ h3 {
 /* Vasyl */
 header {
   background-image: url(../img/bottle-and-grapes-on-table.webp);
-  width: 100%;
+  background-size: cover;
 }
 header nav .logo-icon {
   display: flex;
@@ -101,6 +101,9 @@ header nav .social a {
   header .social {
     display: flex;
   }
+.cover {
+  text-align: center;
+  
 }
 
 /* Khrystyna  */
