@@ -28,8 +28,8 @@ const productsJson = `
      let productsHtml = '';
      for (const product of products) {
         productsHtml += <article>
-             <img src="${product.imgUrl}" alt="${product.title}" />
-             <p class="text-link">${product.title}</p>
+             <img src="${product.imgUrl}" alt="${product.text-link}" />
+             <p class="text-link">${product.text-link}</p>
              <p class="price"> - $${product.price}</p>
              <button class="buttom">Add to cart</button>
         </article>

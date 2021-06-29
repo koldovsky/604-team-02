@@ -1,7 +1,9 @@
 /* Khrystyna  */
 
-@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap'); 
-/* font-family: 'Aguafina Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap'); /* font-family: 'Aguafina Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 body {
   background: #261e1c;
@@ -89,23 +91,23 @@ header nav .social a {
 }
 
 /* Khrystyna  */
-@media (min-width: 360px) {
+
   .shop-wines {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5px;
   }
-}
+
 img {
-  /* max-width: 560px; */
+  
   display: block;
   margin: auto;
 }
-.cabernet{
-  max-width: 460px;
+/* .container-fluid {
+  width: 60px;
   display: block;
-  margin: auto;
-}
+  margin: 0;
+} */
 
 
 .picture-wrapper-m {
@@ -158,9 +160,7 @@ img {
 }
 
 /*Juliya*/
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 
 @media (min-width: 650px) {
   .header-section{
@@ -233,7 +233,6 @@ img {
 }
   
 .button{
-  size: 1px;
   margin: 20px;
   background-color: #C8693A;
   
