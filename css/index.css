@@ -27,30 +27,12 @@ button {
 }
 
 .button-common {
+  display: flex;
   align-items: center;
-  flex-direction: column;
   justify-content: center;
 }
 
-/* h6 {
-  text-align: center;
-  color: white;
-}
 
-h6 {
-  text-align: center;
-  color: #c8693a;
-}
-p {
-  text-align: center;
-  color: white;
-}
-h3 {
-  text-align: center;
-} */
-/* img {
-  width: 100%;
-} */
 
 
 
@@ -107,7 +89,7 @@ header nav .social a {
 }
 
 /* Khrystyna  */
-@media (min-width: 560px) {
+@media (min-width: 360px) {
   .shop-wines {
     display: grid;
     grid-template-columns: 1fr;
@@ -115,22 +97,30 @@ header nav .social a {
   }
 }
 img {
-  max-width: 560px;
-  /* display: block; */
+  /* max-width: 560px; */
+  display: block;
+  margin: auto;
 }
-
+.cabernet{
+  max-width: 460px;
+  display: block;
+  margin: auto;
+}
 
 
 .picture-wrapper-m {
   display: flex;
   justify-content: center;
+  display: block;
+  margin: auto;
 }
 .cta-discover {
   align-items: center;
   background-attachment: fixed;
   background-image: url(../img/optimized_man-and-woman.webp);
-  min-height: 500px;
-  background-size: 100%;
+  min-height: 700px;
+  background-size: cover;
+  background-position: center;
 }
 
 .about-main {
@@ -139,7 +129,7 @@ img {
   background-size: 100%;
 }
 .picture-shelf {
-  max-width: auto;
+  width: 100%;
 }
 .about-in{
   background-image: url(../img/soave-backround.webp);
