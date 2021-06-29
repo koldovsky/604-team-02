@@ -50,7 +50,7 @@ a {
 
 .discount {
   background-image: url(../img/bg-discount.png);
-  background-size: contain;
+  background-size: cover;
   background-color: #c8693a;
 }
 

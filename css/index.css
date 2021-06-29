@@ -6,12 +6,45 @@
 body {
   background: #261e1c;
   color: white;
-  
 }
-button {
+
+section {
+  padding: 50px 0 100px ;
+}
+
+.btn-orange {
+  background-color: #c8693a;
+  color: white;
+  margin-right: 10px;
+  padding: 12px 20px;
+}
+.btn-orange:hover{
+  background-color: #e45d19;
+  color: white;
+}
+.btn-white {
+  border: solid 2px white;
+  background-color: transparent;
+  padding: 10px 20px;
+}
+.btn-white:hover{
+  background-color: white;
+  color: black;
+}
+.orange {
+  color: #c8693a;
+}
+.bg {
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.buttonn {
   padding: 0.35em 1.2em;
   border: 0.2em solid #c8693a;
-  margin: 0 0.4em 0.3em 9em;
   color: #ffffff;
   text-align: center;
   background-color: #c8693a;
@@ -38,10 +71,10 @@ button {
 
 
 /* Vasyl */
-header {
+/* header {
   background-image: url(../img/bottle-and-grapes-on-table.webp);
   background-size: cover;
-}
+} */
 header nav .logo-icon {
   display: flex;
   height: 44px;
@@ -96,11 +129,11 @@ header nav .social a {
     grid-gap: 5px;
   }
 }
-img {
-  /* max-width: 560px; */
+/* img {
+  max-width: 560px;
   display: block;
   margin: auto;
-}
+} */
 .cabernet{
   max-width: 460px;
   display: block;
@@ -115,26 +148,17 @@ img {
   margin: auto;
 }
 .cta-discover {
-  align-items: center;
-  background-attachment: fixed;
   background-image: url(../img/optimized_man-and-woman.webp);
-  min-height: 700px;
-  background-size: cover;
-  background-position: center;
+ 
 }
 
-.about-main {
-  background-image: url(../img/soave-backround.webp);
-  
-  background-size: 100%;
-}
+
 .picture-shelf {
   width: 100%;
 }
 .about-in{
   background-image: url(../img/soave-backround.webp);
-  background-size: 100%;
-  background-position: right; 
+   background-size: cover;
 }
 .crafted-by-our-winemakers-text {
   text-align: center;
@@ -231,13 +255,11 @@ img {
 .carousel-item{
   padding: 0 15px;
 }
-  
-.button{
-  size: 1px;
+  /* закоментували тому що буде стандарт кнопок */
+/* .button{
   margin: 20px;
   background-color: #C8693A;
-  
-}
+} */
 .carousel-item .text{
   height: 200px;
   margin-top: 15px;
