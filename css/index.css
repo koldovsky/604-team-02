@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap'); 
 /* font-family: 'Aguafina Script', cursive; */
-
+/* Не рухати */
 body {
   background: #261e1c;
   color: white;
@@ -40,35 +40,7 @@ section {
   background-size: cover;
   background-position: center;
 }
-
-
-.buttonn {
-  padding: 0.35em 1.2em;
-  border: 0.2em solid #c8693a;
-  color: #ffffff;
-  text-align: center;
-  background-color: #c8693a;
-}
-.button-transparent {
-  padding: 0.35em 1.2em;
-  border: 0.2em solid #ffffff;
-  color: #ffffff;
-  text-decoration: none;
-  text-align: center;
-  transition: color 0.7s;
-  background-color: transparent;
-}
-
-.button-common {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
-
-
+/* не рухати */
 
 /* Vasyl */
 /* header {
