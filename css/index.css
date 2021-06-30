@@ -122,7 +122,7 @@ img {
   background-image: url(../img/optimized_man-and-woman.webp);
  
 }
- .text-wine{
+ .text-wine {
   font-family: 'Great Vibes', cursive;
   font-size: 34px ;
   color: #C8693A;
@@ -144,7 +144,29 @@ img {
   word-wrap: break-word;
   margin: 20px 0px 20px 0px;
 }
+ .text-best{
+  font-family: 'Great Vibes', cursive;
+  font-size: 28px ;
+  color: #C8693A;
+  margin: 20px 0px 20px 0px;
+ }
 
+ .text-every{
+  font-family: 'Prata', serif;
+  font-size: 48px;
+  color: white;
+  margin: 20px 0px 40px 0px;
+ }
+ .text-shop{
+  display:flex;
+  color: #898082 ;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  max-width: 100%;
+  word-wrap: break-word;
+  margin: 20px 0px 40px 0px;
+ }
 
 .picture-shelf {
   width: 100%;
