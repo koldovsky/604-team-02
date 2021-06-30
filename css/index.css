@@ -43,6 +43,29 @@ section {
   background-size: cover;
   background-position: center;
 }
+.text-subtitle{
+  font-family: 'Great Vibes', cursive;
+  font-size: 28px ;
+  color: #C8693A;
+  margin: 20px 0px 20px 0px;
+ }
+
+ .text-title{
+  font-family: 'Prata', serif;
+  font-size: 48px;
+  color: white;
+  margin: 20px 0px 40px 0px;
+ }
+ .text-paragraph{
+  display:flex;
+  color: #898082 ;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  max-width: 100%;
+  word-wrap: break-word;
+  margin: 20px 0px 40px 0px;
+ }
 /* не рухати */
 
 /* Vasyl */
@@ -50,6 +73,12 @@ section {
   background-image: url(../img/bottle-and-grapes-on-table.webp);
   background-size: cover;
 } */
+
+
+
+ .cali-logo{
+   width: 200px;
+ }
 header nav .logo-icon {
   display: flex;
   height: 44px;
@@ -144,33 +173,39 @@ img {
   word-wrap: break-word;
   margin: 20px 0px 20px 0px;
 }
- .text-best{
-  font-family: 'Great Vibes', cursive;
-  font-size: 28px ;
-  color: #C8693A;
-  margin: 20px 0px 20px 0px;
- }
-
- .text-every{
-  font-family: 'Prata', serif;
-  font-size: 48px;
-  color: white;
-  margin: 20px 0px 40px 0px;
- }
- .text-shop{
-  display:flex;
-  color: #898082 ;
-  font-family: 'Rubik', sans-serif;
-  font-size: 18px;
-  justify-content: center;
-  max-width: 100%;
-  word-wrap: break-word;
-  margin: 20px 0px 40px 0px;
- }
 
 .picture-shelf {
-  width: 100%;
+  width: 1300px;
+  margin: 0 60px;
 }
+ .the-beginning-date {
+  font-family: 'Great Vibes', cursive;
+  font-size: 18px ;
+  margin: 40px 0px 20px ;
+ }
+ .the-beginning-name{
+  font-family: 'Prata', serif;
+  font-size: 28px;
+  margin: 10px 0px ;
+ }
+ .strip{
+  margin: 10px 0px ;
+ }
+ .the-beginning-text{
+  color: #898082 ;
+  font-family: 'Rubik', sans-serif;
+  font-size: 17px;
+  margin: 10px 0px ;
+ }
+
+
+
+
+.history-content-section{
+  margin: 0 60px;
+ }
+
+
 .about-in{
   background-image: url(../img/soave-backround.webp);
    background-size: cover;
