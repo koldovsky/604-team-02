@@ -1,10 +1,10 @@
 /* Khrystyna  */
 
-@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap'); /* font-family: 'Aguafina Script', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-/* font-family: 'Aguafina Script', cursive; */
+
 /* Не рухати */
 body {
   background: #261e1c;
@@ -109,11 +109,7 @@ img {
   display: block;
   margin: auto;
 }
-/* .container-fluid {
-  width: 60px;
-  display: block;
-  margin: 0;
-} */
+
 
 
 .picture-wrapper-m {
@@ -125,6 +121,28 @@ img {
 .cta-discover {
   background-image: url(../img/optimized_man-and-woman.webp);
  
+}
+ .text-wine{
+  font-family: 'Great Vibes', cursive;
+  font-size: 34px ;
+  color: #C8693A;
+  margin: 20px 0px 20px 0px;
+  }
+ .text-discover{
+  font-family: 'Prata', serif;
+  font-size: 84px;
+  color: white;
+  margin: 20px 0px 40px 0px;
+ }
+ .text-p{
+  display:flex;
+  color: #898082 ;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  justify-content: center;
+  max-width: 100%;
+  word-wrap: break-word;
+  margin: 20px 0px 20px 0px;
 }
 
 
