@@ -1,6 +1,9 @@
 /* Khrystyna  */
 
 @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 /* font-family: 'Aguafina Script', cursive; */
 /* Не рухати */
 body {
@@ -156,61 +159,39 @@ img {
 /*Juliya*/
 
 
-@media (min-width: 650px) {
-  .header-section{
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns:1fr 1fr;
-  }
+.header-section{
+  display:grid;
+  text-align: center;
+  padding: 0px 15px 0px 15px;
+  margin-top: 30px;
+  font: inherit;
+  vertical-align: baseline;
+  justify-content: center;
 }
-  .header-section{
-    display: grid;
-    text-align: center;
-    margin: 20px 15px 0px 15px;
-    font: inherit;
-    vertical-align: baseline;
-    justify-content: center;
-} 
-@media (min-width: 768px){
-  .section-inner{
-    padding: 0 32px;
-}
-}
-@media (min-width: 480px){
-  .section-inner{ 
-    padding: 0 24px;
- }
-}
-        
+
 .section-inner{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
 }
+
+
 .page-name {
   font-family: 'Great Vibes', cursive;
   font-size: 14px ;
   color: #C8693A;
   margin: 10px 0px 10px 0px;
+
 }
-    
+
 .title {
   font-family: 'Prata', serif;
   font-size: 34px;
   color: white;
   margin: 10px 0px 10px 0px;
 }
-.picture-wrapper-my{
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  object-fit: contain;
-  object-position: 50% 50%;
-}
-/*Testimonial-section*/
+
 .text-content{
   display:flex;
   color: #898082 ;
@@ -221,37 +202,35 @@ img {
   word-wrap: break-word;
   margin: 20px 0px 10px 0px;
 }
-  
-.carousel-item{
-  padding: 0 15px;
-}
-  /* закоментували тому що буде стандарт кнопок */
-/* .button{
+
+/*Testimonial-section*/
+
+
+.carousel-button{
+  size: 1px;
   margin: 20px;
   background-color: #C8693A;
-} */
-.carousel-item .text{
+  box-sizing: content-box;
+}
+.carousel-item{
   height: 200px;
   margin-top: 15px;
 }
-  
+
 .carousel-caption{
-  width: 70%;  
-}
-.carousel-indicators {
-  margin-top: 20px;
+  width: 70%;
 }
 .carousel-indicators [data-bs-target] {
-  background-color: #C8693A;
-  box-sizing: border-box;
-  display: block;
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  cursor: pointer;
-  padding: 5px;
-  text-align: center;
-  margin-top: 20px; 
+ background-color: #C8693A;
+ box-sizing: border-box;
+ display: block;
+ width: 10px;
+ height: 10px;
+ border-radius: 100%;
+ cursor: pointer;
+ padding: 5px;
+ text-align: center;
+ margin-top: 20px; 
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
   background-color: #C8693A;
@@ -262,36 +241,67 @@ img {
   padding: 0;
   top: 50%;
   position: absolute;
-} 
-/*Blog-section*/
+  
+}
+/*BLOG section*/
 
-.section-content {
-  font-family: "Rubik", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+.blog-section-content {
   display: flex;
   height: 450px;
   width: 100%;
   justify-content: center;
   font-weight: 600;
-  line-height: 32;
-  align-items: center;
+  font-size: 24px;
   color: white;
+  font-family: 'Rubik', sans-serif;
+  align-items: center;
+  border: 1px solid rgba(33, 39, 54, 0.12);
+}    
+
+/*question*/
+.picture-wrapper-faq {
+  display: flex;
+  justify-content:left;
 }
-/*FAQ-section*/
+.faq-section{
+  padding: 50px 0px;
+}
+.faq-section-inner{
+  padding: 0px 40px;
+  height: 100%;
+}
+.faq-section-content{
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+.header-section-faq {
+  display:grid;
+  margin-top: 30px;
+  padding: 0px 15px 0px 15px;
+  font: inherit;
+  vertical-align: baseline;
+  justify-content: left;
+}
+.accordion-wrapper{
+  align-items: flex-start;
+}
+.accordion-item{
+  border: none !important;
+  position: relative;
+  cursor: pointer;
+}
 .accordion-item-title{
   width: 100%;
   position: relative;
   color: white;
-  background-color: #261e1c;
+  background: #261e1c;
   font-family: Prata, serif;
-  font-size: 22px;
-  text-align: left;
-  height: 35px;
-  vertical-align: center;
-  cursor: pointer;
-  
-}
+  font-size: 18px;
+  height: 100%;
+  padding: 15px 0px;
+}   
 .accordion-item-title::before{
   content: "+";
   position: absolute;
@@ -303,13 +313,63 @@ img {
 .accordion-item-content{
   position: relative;
   color: #898082;
+  background: #261e1c;
   font-family: Rubik, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   height: 0;
   overflow: hidden;
   transition: .5s ease-in-out;
   border-bottom: 1px solid #777;
 }
- .accordion-item .active .accordion-item-content{
+.accordion-item.active .accordion-item-content{
   height: 35px;
- }
+}
+.accordion-item.active .accordion-item-title::before{
+  content: "-";
+}
+/*icon-section*/
+.mini-icons{
+  padding: 50px 0px 120px;
+}
+.item{
+  
+  margin: -30px -15px 0px;
+}
+.icons{
+  margin-top: 30px;
+  padding: 0px 15px;
+}
+.icon-panel-wrapper-inner{
+  position: relative;
+  background: #342e2e;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.mini-icon{
+  display: flex;
+  position: absolute;               
+  top: 50%;  
+  left: 30%; 
+  transform: translate(0, -50%);
+  color: #C8693A !important;
+  width: 30px;
+  height: 30px;
+  background: #342e2e;
+  border-radius: 50%;
+}
+.icon-title{
+  color: white;
+  font-family: Prata, serif;
+  font-size: 18px;
+}
+.underline{
+  color: #C8693A;
+  height: 2px;
+  width: 15%;
+}
+.icon-text{
+  color:#898082;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+}
