@@ -181,7 +181,10 @@ img {
 }
 
 .picture-shelf {
-  width: 1300px;
+  
+  width: 100%;
+}
+.picture-section{
   margin: 0 60px;
 }
  .the-beginning-date {
