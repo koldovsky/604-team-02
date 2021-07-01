@@ -63,13 +63,9 @@ a:hover{
   margin: 20px 0px 40px 0px;
  }
  .text-paragraph{
-  display:flex;
   color: #898082 ;
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
-  justify-content: center;
-  max-width: 100%;
-  word-wrap: break-word;
   margin: 20px 0px 40px 0px;
  }
 /* не рухати */
@@ -170,14 +166,10 @@ img {
   margin: 20px 0px 40px 0px;
  }
  .text-p{
-  display:flex;
   color: #898082 ;
   font-family: 'Rubik', sans-serif;
   font-size: 24px;
-  justify-content: center;
-  max-width: 100%;
-  word-wrap: break-word;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0px 60px 0px;
 }
 
 .picture-shelf {
@@ -207,7 +199,11 @@ img {
   margin: 10px 0px ;
  }
 
-
+.text-paragraph-a{
+  font-family: 'Prata', serif;
+  font-size: 18px;
+  margin: 10px 0px ;
+}
 
 
 .history-content-section{
@@ -219,6 +215,13 @@ img {
   background-image: url(../img/soave-backround.webp);
    background-size: cover;
 }
+ .varieties-of-wine{
+   margin: 20px 20px 20px 800px;
+ }
+  .picture-wrapper{
+    display: block;
+    margin: 0 0px 0 -400px;
+  }
 .crafted-by-our-winemakers-text {
   text-align: center;
   color: #c8693a;
@@ -231,9 +234,8 @@ img {
   text-align: center;
   color: #ffffff;
 }
- .pict-wrap{
-  justify-content: center;
-}
+ 
+
 .find-your-ideal-text{
   text-align: center;
   color: #ffffff;
