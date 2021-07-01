@@ -16,8 +16,7 @@
 
 .video {
   background-image: url(../img/bg-video.png);
-  background-attachment: fixed;
-  min-height: 400px;
+  min-height: 800px;
 }
 
 a {

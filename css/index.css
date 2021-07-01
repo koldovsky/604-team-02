@@ -39,15 +39,17 @@ section {
 }
 .bg {
   background-attachment: fixed;
-  min-height: 100vh;
+  min-height: 35vh;
   background-size: cover;
   background-position: center;
 }
 a{
   text-decoration: none;
+  color: white;
 }
 a:hover{
-  color: ;
+  color: white;
+  text-decoration: underline;
 }
 .text-subtitle{
   font-family: 'Great Vibes', cursive;
@@ -72,6 +74,9 @@ a:hover{
   word-wrap: break-word;
   margin: 20px 0px 40px 0px;
  }
+ .arrow {
+  width: 6%;
+}
 /* не рухати */
 
 /* Vasyl */
@@ -139,11 +144,7 @@ header nav .social a {
     grid-gap: 5px;
   }
 
-img {
-  
-  display: block;
-  margin: auto;
-}
+
 
 
 
@@ -453,4 +454,49 @@ img {
   color:#898082;
   font-family: Rubik, sans-serif;
   font-size: 14px;
+}
+.video {
+  background-image: url(../img/bg-video.png);
+  min-height: 800px;
+}
+.icon-play {
+  margin-bottom: 20px;
+}
+.text-decoration-p{
+  color: white;
+  margin-bottom: 40px;
+}
+.bg-red-wined{
+  background-image: url(../img/bg-red-wine.webp);
+  min-height: 45vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.wine-text{
+  font-size: 32px;
+  font-family: 'Prata', serif;
+  margin-top: 40px;
+}
+
+.bg-white-wines{
+  background-image: url(../img/bg-white-wine.webp);
+  min-height: 45vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg-discont{
+  background-image: url(../img/bg-discount.png);
+  background-size: cover;
+  background-color: #c8693a;
+}
+
+.join-arrow{
+  width: 2%;
+}
+.pos-20 {
+padding-left: 40px;
+padding-bottom: 40px;
+}
+.pos-left-40 {
+  padding-left: 40px;
 }
