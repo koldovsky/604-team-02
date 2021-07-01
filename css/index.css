@@ -214,6 +214,8 @@ img {
 .about-in{
   background-image: url(../img/soave-backround.webp);
    background-size: cover;
+   width: 100%;
+   margin: 0 40px 0 -60px;
 }
  .varieties-of-wine{
    margin: 20px 20px 20px 800px;
