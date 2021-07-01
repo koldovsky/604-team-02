@@ -507,3 +507,15 @@ padding-bottom: 40px;
 .pos-left-40 {
   padding-left: 40px;
 }
+.red-wines-container {
+  background-image: url(../img/bg-red-wine.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 400px;
+}
+.white-wines-container {
+  background-image: url(../img/bg-white-wine.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 400px;
+}
