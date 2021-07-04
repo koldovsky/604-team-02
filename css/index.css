@@ -1,10 +1,10 @@
 /* Khrystyna  */
 
-@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap'); /* font-family: 'Aguafina Script', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-/* font-family: 'Aguafina Script', cursive; */
+
 /* Не рухати */
 body {
   background: #261e1c;
@@ -39,9 +39,39 @@ section {
 }
 .bg {
   background-attachment: fixed;
-  min-height: 100vh;
+  min-height: 35vh;
   background-size: cover;
   background-position: center;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.text-subtitle{
+  font-family: 'Great Vibes', cursive;
+  font-size: 28px ;
+  color: #C8693A;
+  margin: 20px 0px 20px 0px;
+ }
+
+ .text-title{
+  font-family: 'Prata', serif;
+  font-size: 48px;
+  color: white;
+  margin: 20px 0px 40px 0px;
+ }
+ .text-paragraph{
+  color: #898082 ;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  margin: 20px 0px 40px 0px;
+ }
+ .arrow {
+  width: 6%;
 }
 /* не рухати */
 
@@ -50,6 +80,12 @@ section {
   background-image: url(../img/bottle-and-grapes-on-table.webp);
   background-size: cover;
 } */
+
+
+
+ .cali-logo{
+   width: 200px;
+ }
 header nav .logo-icon {
   display: flex;
   height: 44px;
@@ -106,16 +142,8 @@ header nav .social a {
     grid-gap: 5px;
   }
 
-img {
-  
-  display: block;
-  margin: auto;
-}
-/* .container-fluid {
-  width: 60px;
-  display: block;
-  margin: 0;
-} */
+
+
 
 
 .picture-wrapper-m {
@@ -128,15 +156,77 @@ img {
   background-image: url(../img/optimized_man-and-woman.webp);
  
 }
-
+ .text-wine {
+  font-family: 'Great Vibes', cursive;
+  font-size: 34px ;
+  color: #C8693A;
+  margin: 20px 0px 20px 0px;
+  }
+ .text-discover{
+  font-family: 'Prata', serif;
+  font-size: 84px;
+  color: white;
+  margin: 20px 0px 40px 0px;
+ }
+ .text-p{
+  color: #898082 ;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  margin: 20px 0px 60px 0px;
+}
 
 .picture-shelf {
+  
   width: 100%;
 }
+.picture-section{
+  margin: 0 60px;
+}
+ .the-beginning-date {
+  font-family: 'Great Vibes', cursive;
+  font-size: 18px ;
+  margin: 40px 0px 20px ;
+ }
+ .the-beginning-name{
+  font-family: 'Prata', serif;
+  font-size: 28px;
+  margin: 10px 0px ;
+ }
+ .strip{
+  margin: 10px 0px ;
+ }
+ .the-beginning-text{
+  color: #898082 ;
+  font-family: 'Rubik', sans-serif;
+  font-size: 17px;
+  margin: 10px 0px ;
+ }
+
+.text-paragraph-a{
+  font-family: 'Prata', serif;
+  font-size: 18px;
+  margin: 10px 0px ;
+}
+
+
+.history-content-section{
+  margin: 0 60px;
+ }
+
+
 .about-in{
   background-image: url(../img/soave-backround.webp);
    background-size: cover;
+   width: 100%;
+   margin: 0 40px 0 -60px;
 }
+ .varieties-of-wine{
+   margin: 20px 20px 20px 800px;
+ }
+  .picture-wrapper{
+    display: block;
+    margin: 0 0px 0 -400px;
+  }
 .crafted-by-our-winemakers-text {
   text-align: center;
   color: #c8693a;
@@ -149,9 +239,8 @@ img {
   text-align: center;
   color: #ffffff;
 }
- .pict-wrap{
-  justify-content: center;
-}
+ 
+
 .find-your-ideal-text{
   text-align: center;
   color: #ffffff;
@@ -285,6 +374,7 @@ img {
   margin-top: 30px;
   padding: 0px 15px 0px 15px;
   font: inherit;
+  min-width: 430px;
    
 }
 .accordion-wrapper{
@@ -378,8 +468,65 @@ img {
   height: 2px;
   width: 15%;
 }
-.icon-text{
+.icon-text {
   color:#898082;
   font-family: Rubik, sans-serif;
   font-size: 14px;
+}
+.video {
+  background-image: url(../img/bg-video.png);
+  min-height: 800px;
+}
+.icon-play {
+  margin-bottom: 20px;
+}
+.text-decoration-p{
+  color: white;
+  margin-bottom: 40px;
+}
+.bg-red-wined{
+  background-image: url(../img/bg-red-wine.webp);
+  min-height: 45vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.wine-text{
+  font-size: 32px;
+  font-family: 'Prata', serif;
+  margin-top: 40px;
+}
+
+.bg-white-wines{
+  background-image: url(../img/bg-white-wine.webp);
+  min-height: 45vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg-discont{
+  background-image: url(../img/bg-discount.png);
+  background-size: cover;
+  background-color: #c8693a;
+}
+
+.join-arrow{
+  width: 2%;
+}
+.pos-20 {
+padding-left: 40px;
+padding-bottom: 40px;
+}
+.pos-left-40 {
+  padding-left: 40px;
+}
+.red-wines-container {
+  background-image: url(../img/bg-red-wine.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 400px;
+}
+.white-wines-container {
+  background-image: url(../img/bg-white-wine.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 400px;
 }
