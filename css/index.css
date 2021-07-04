@@ -76,6 +76,7 @@ header nav .social a {
   border: 15px;
   margin: 10px;
 }
+/*
 @media (min-width: 560px) {
   header nav {
     display: flex;
@@ -85,6 +86,7 @@ header nav .social a {
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.5);
   }
+  */
   header .menu {
     display: flex;
   }
@@ -260,47 +262,52 @@ img {
 
 /*question*/
 .picture-wrapper-faq {
-  display: flex;
-  justify-content:left;
+  justify-content:start;
+  align-items: flex-start;
 }
 .faq-section{
   padding: 50px 0px;
 }
 .faq-section-inner{
-  padding: 0px 40px;
   height: 100%;
+  margin: 0px auto;
+  padding: 0px 24px;
+  word-wrap: break-word;
 }
 .faq-section-content{
   margin: 0;
   padding: 0;
-  display: grid;
+  min-height: 400px;
 }
 
 .header-section-faq {
-  display:grid;
+  justify-content: left;
   margin-top: 30px;
   padding: 0px 15px 0px 15px;
   font: inherit;
-  vertical-align: baseline;
-  justify-content: left;
+   
 }
 .accordion-wrapper{
   align-items: flex-start;
+  
 }
 .accordion-item{
   border: none !important;
   position: relative;
-  cursor: pointer;
+    cursor: pointer;
 }
 .accordion-item-title{
+  display: flex;
+  align-items: center;
+  text-align: left;
   width: 100%;
   position: relative;
   color: white;
   background: #261e1c;
   font-family: Prata, serif;
   font-size: 18px;
-  height: 100%;
-  padding: 15px 0px;
+  height: 45px;
+  cursor: pointer;
 }   
 .accordion-item-title::before{
   content: "+";
@@ -322,7 +329,10 @@ img {
   border-bottom: 1px solid #777;
 }
 .accordion-item.active .accordion-item-content{
-  height: 35px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: left;
 }
 .accordion-item.active .accordion-item-title::before{
   content: "-";
