@@ -1,4 +1,27 @@
+body {
+  background: #261e1c;
+  color: white;
+}
 .logo {
   height: 44px;
   width: 176px;
+}
+.nav-shadow {
+  background: rgb(12, 12, 12, 0.7);
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: #c8693a;
 }
