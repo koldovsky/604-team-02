@@ -53,6 +53,7 @@
           <p class="clock"></p>
         </div>
       </nav>
+
       <section class="cover">
         <div class="container">
           <div class="row">
@@ -552,82 +553,36 @@
         </div>
       </div>
     </section>
-    <section class="container">
+    
+    <section>
+      <div class="container">
+
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-            <div class="bg-red-wined">
-              <div class="container d-grid gap-3">
-                <div class="row">
-                  <div class="col">
-                    <h1 class="wine-text">Red Wines</h1>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <div class="text-decoration-p">Great selection of red wines for you.</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col"><a href="#craft-wines" class="btn-orange red-wines">Shop red wines</a></div>
-                </div>
-              </div>
-            </div>
+          <div class="red-wines-container col-sm-12 col-12 col-md-6 col-lg-6">
+            <p class="red-wines-h1">Red Wines</p>
+            <span class="red-wines-underline">____</span>
+            <p class="red-wine-p">Great selection of red wines for you.</p>
+            <a href="#" class="btn-orange red-wines-bnt">Shop red wines</a>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-            <div class="bg-white-wines">
-              <div class="container d-grid gap-3">
-                <div class="row">
-                  <div class="col">
-                    <p class="wine-text">White Wines</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <div class="text-decoration-p">Top white wines for any occasion.</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col"><a href="#craft-wines" class="btn-orange red-wines">Shop white wines</a></div>
-                </div>
-              </div>
-            </div>
+          <div class="white-wines-container col-sm-12 col-12 col-md-6 col-lg-6">
+            <p class="red-wines-h1">White Wines</p>
+            <span class="red-wines-underline">____</span>
+            <p class="red-wine-p">Top white wines for any occasion.</p>
+            <a href="#" class="btn-orange red-wines-bnt">Shop white wines</a>
           </div>
         </div>
-        <div class="">
-          <div class="bg-discont">
-            <div class="row">
-              <div class="col">
-                <p class="wine-text pos-left-40">Get your 15% personal discount</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <p class="text-decoration-p pos-left-40">Join our club of wine-lovers and be the first to know about the special offers.</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col pos-20">
-                <a href="#join" class="btn-white join">Join <img src="img/arrow.svg" class="join-arrow" alt="arrow"></a>
-              </div>
-            </div>
+      </div>
+    </section>
+    <section>
+      <div class="container personal-discount">
+        <div class="row">
+          <div class="col">
+            <h1>Get your 15% personal discount</h1>
+            <p>Join our club of wine-lovers and be the first to know about the special offers.</p>
+            <a href="#join" class="btn-white">Join <img src="img/arrow.svg" class="join-arrow" alt="arrow"></a>
           </div>
         </div>
-        <section>
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 red-wines-container">
-                <h1>Red Wines</h1>
-                <p>Great selection of red wines for you.</p>
-                <a href="#" class="btn-orange">Shop red wines</a>
-              </div>
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 white-wines-container">
-                <h1>White Wines</h1>
-                <p>Top white wines for any occasion</p>
-                <a class="btn-orange" href="#">Shop white wines</a>
-              </div>
-            </div>
-          </div>
-        </section>
+      </div>
     </section>
     <section>
       <div class="container text-center">
@@ -998,7 +953,7 @@
     <section class=contact-form>
       <div class="container">
         <div class="row row-cols-1">
-          <div class="col">Join</div>
+          <div id="join" class="col">Join</div>
           <div class="col">Join Our Newsletter Now</div>
           <div class="col">Learn more about wines and our special offers with our weekly digests.</div>
         </div>
@@ -1051,6 +1006,8 @@
           <h5>All rights Reserved</h5>
         </div>
       </footer>
+      
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"

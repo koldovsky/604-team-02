@@ -1,27 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  color: #fff;
-}
-header {
-  background-color: #fff;
-  padding: 20px;
-}
-main {
-  background-color: #261e1c;
-}
-
-.home {
-  text-decoration: none;
-}
-.content {
-  display: flex;
-  justify-content: left;
-}
-
-.green {
-  color: #61a854;
-}
-main {
-  background-image: url(//);
+.logo {
+  height: 44px;
+  width: 176px;
 }
