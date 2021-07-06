@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap"); /* font-family: 'Aguafina Script', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
 body {
   background: #261e1c;
   color: white;
+}
+section {
+  padding: 50px 0 100px;
 }
 .logo {
   height: 44px;
@@ -24,4 +32,63 @@ a {
 a:hover {
   text-decoration: none;
   color: #c8693a;
+}
+.picture-position {
+  margin-top: 10%;
+}
+.litlle-picture {
+  margin-top: 65%;
+  width: 58px;
+  height: 58px;
+  border: solid 1px;
+  float: left;
+}
+
+.btn-orange {
+  background-color: #c8693a;
+  color: white;
+  margin-right: 10px;
+  padding: 12px 20px;
+}
+.btn-orange:hover {
+  background-color: #e45d19;
+  color: white;
+}
+.green {
+  color: green;
+  margin-top: 10%;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+h2 {
+  font-family: "Prata", serif;
+  font-size: 22px;
+}
+.code {
+  margin-top: 8px;
+  font-family: "Great Vibes", cursive;
+  font-size: 21px;
+}
+.price {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+input {
+  margin-bottom: 5%;
+}
+.description {
+  margin-top: 10%;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+.blue {
+  border-bottom: 2px solid blue;
+  width: 16%;
+  position: absolute;
+  margin-top: -2px;
+}
+.white-underline {
+  border-bottom: solid 1px white;
 }
