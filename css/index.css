@@ -208,15 +208,14 @@ header .social {
   background-image: url(../img/soave-backround.webp);
   background-size: cover;
   width: 100%;
-  margin: 0 40px 0 -60px;
+  min-height: 35vh;
+  background-position: right;
+
 }
-.varieties-of-wine {
-  margin: 20px 20px 20px 800px;
-}
-.picture-wrapper {
-  display: block;
-  margin: 0 0px 0 -400px;
-}
+/* .varieties-of-wine {
+  margin: 20px 20px 20px 280px;
+} */
+
 .crafted-by-our-winemakers-text {
   text-align: center;
   color: #c8693a;
@@ -227,6 +226,7 @@ header .social {
 .discover-our-wines-inside-text {
   text-align: center;
   color: #ffffff;
+  
 }
 
 .find-your-ideal-text {
