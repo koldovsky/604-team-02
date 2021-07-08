@@ -85,6 +85,9 @@ a:hover {
 .cali-logo {
   width: 200px;
 }
+.soave{
+  width: 200px;
+}
 header nav .logo-icon {
   display: flex;
   height: 44px;
@@ -149,6 +152,7 @@ header .social {
 .cta-discover {
   background-image: url(../img/optimized_man-and-woman.webp);
 }
+
 .text-wine {
   font-family: "Great Vibes", cursive;
   font-size: 34px;
@@ -210,6 +214,7 @@ header .social {
   width: 100%;
   min-height: 35vh;
   background-position: right;
+  margin: auto;
 
 }
 /* .varieties-of-wine {
