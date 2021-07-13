@@ -77,23 +77,20 @@ a:hover {
 /* не рухати */
 
 /* Vasyl */
-/* header {
+.vasyl {
   background-image: url(../img/bottle-and-grapes-on-table.webp);
   background-size: cover;
-} */
-
+} 
 .cali-logo {
   width: 200px;
 }
-.soave{
-  width: 200px;
 }
-header nav .logo-icon {
+.logo-icon {
   display: flex;
   height: 44px;
   width: 176px;
 }
-header nav .menu a {
+.menu a {
   display: block;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
@@ -103,38 +100,73 @@ header nav .menu a {
   margin: 10px;
   text-decoration: unset;
 }
-header .social {
+.social {
   display: flex;
   justify-content: center;
 }
-header nav .social a {
+.social a {
   height: 20px;
   width: 20px;
   padding: 0px;
   border: 15px;
   margin: 10px;
 }
-/*
+.clock {
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin: 0px;
+}
+.menu a:hover {
+color: #e45d19;
+}
 @media (min-width: 560px) {
-  header nav {
+  .words {
     display: flex;
     padding: 30px;
     align-items: center;
-    flex: 1;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  */
-header .menu {
+.menu {
   display: flex;
 }
-header .social {
-  display: flex;
 }
-.cover {
+.verh {
+  font-family: "Prata", serif;
+  font-size: 22px;
+  color: #ffffff;
+}
+.capaa {
+  background-image: url(../img/bottle-and-cheese-on-table.webp);
+  background-size: cover;
+  margin: 12px;
+}
+.capab {
+  background-image: url(../img/two-glasses.webp);
+  background-size: cover;
+  margin: 12px;
+}
+.capac {
+  background-image: url(../img/capac.webp);
+  background-size: cover;
+  margin: 12px;
+}
+.stri {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.textblock {
+  height: 400px;
+  width: 200px;
+}
+.advan {
+  display: block;
   text-align: center;
 }
-
+.soave{
+  width: 100%;
+}
 /* Khrystyna  */
 
 .shop-wines {
