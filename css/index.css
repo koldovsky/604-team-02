@@ -7,9 +7,20 @@
 
 /* Не рухати */
 body {
-  background: #261e1c;
+  
   color: white;
 }
+.background-body{
+  background: #261e1c;
+}
+
+.background-footer{
+  background-color:#1b1613
+}
+.background-footer-2{
+  background-color:black
+}
+
 
 section {
   padding: 50px 0 100px;
@@ -588,5 +599,12 @@ color: #e45d19;
 @media (width: 560px) {
   .red-wines-container {
     min-width: 700px;
-  };
+  }
   
+  /* #bg-footer{
+    background-color:#1b1613
+  }
+.info-content {
+    margin: 0 40px 0 40px;
+} */
+
