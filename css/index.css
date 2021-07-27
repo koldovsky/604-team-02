@@ -601,10 +601,15 @@ color: #e45d19;
     min-width: 700px;
   }
   
-  /* #bg-footer{
-    background-color:#1b1613
-  }
-.info-content {
-    margin: 0 40px 0 40px;
-} */
+  
 
+
+.callback-form{
+  background: transparent;
+  padding: 10px 10px 15px 10px;
+  text-align: center;
+  color: var(--c-grey);
+  margin-bottom: 30px;
+}
+  
+}
