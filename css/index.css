@@ -599,17 +599,61 @@ color: #e45d19;
 @media (width: 560px) {
   .red-wines-container {
     min-width: 700px;
-  }
+  }}
   
   
 
 
 .callback-form{
   background: transparent;
-  padding: 10px 10px 15px 10px;
-  text-align: center;
+  padding: 10px 90px 15px 10px;
   color: var(--c-grey);
-  margin-bottom: 30px;
+  margin: 30px 5px 30px;
+  border: none;
+  border-bottom: 1px solid grey;
 }
+
+  
+.callback-form-submit{
+  padding: 10px 210px 15px 10px;
+  text-align: center;
+  border: none;
+  margin: 0px 5px 30px;
+}
+.btn-orange{
+  text-align: center;
+}
+.social{
+  display: flex;
+  justify-content:left;
+  padding: 0px;
+  margin: 0;
   
 }
+.contact-form{
+  padding:50px 0 0;
+}
+.content-section {
+  margin: 0 50px 0;
+  
+}
+.background-footer{
+  padding: 10px 0 ;
+}
+ 
+ .incta-cork,
+ .incta-bottles,
+ .incta-man,
+ .incta-grapes,
+ .incta-fruit, 
+ .incta-glass{
+   margin-right: 10px;
+   margin-bottom: 10px;
+ }
+ .background-footer-2{
+  padding: 10px 50px ; 
+ }
+ .text-title-reseved{
+  text-align: end;
+ }
+ 
