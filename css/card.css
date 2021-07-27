@@ -95,3 +95,41 @@ input {
 .picture-position{
   width: 400px;
  }
+
+a:hover {
+  text-decoration: none;
+  color: #c8693a;
+}
+.social{
+  display: flex;
+  justify-content:left;
+  padding: 0px;
+  margin: 0;
+  
+}
+.contact-form{
+  padding:50px 0 0;
+}
+.content-section {
+  margin: 0 50px 0;
+  
+}
+.background-footer{
+  padding: 10px 0 ;
+}
+ 
+ .incta-cork,
+ .incta-bottles,
+ .incta-man,
+ .incta-grapes,
+ .incta-fruit, 
+ .incta-glass{
+   margin-right: 10px;
+   margin-bottom: 10px;
+ }
+ .background-footer-2{
+  padding: 10px 50px ; 
+ }
+ .text-title-reseved{
+  text-align: end;
+ }

@@ -615,13 +615,19 @@ color: #e45d19;
 
   
 .callback-form-submit{
-  padding: 10px 210px 15px 10px;
   text-align: center;
   border: none;
   margin: 0px 5px 30px;
+  width: 100%;
 }
 .btn-orange{
   text-align: center;
+  
+}
+
+a:hover {
+  text-decoration: none;
+  color: #c8693a;
 }
 .social{
   display: flex;
