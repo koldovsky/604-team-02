@@ -7,20 +7,18 @@
 
 /* Не рухати */
 body {
-  
   color: white;
 }
-.background-body{
+.background-body {
   background: #261e1c;
 }
 
-.background-footer{
-  background-color:#1b1613
+.background-footer {
+  background-color: #1b1613;
 }
-.background-footer-2{
-  background-color:black
+.background-footer-2 {
+  background-color: black;
 }
-
 
 section {
   padding: 50px 0 100px;
@@ -91,7 +89,7 @@ a:hover {
 .vasyl {
   background-image: url(../img/bottle-and-grapes-on-table.webp);
   background-size: cover;
-} 
+}
 .cali-logo {
   width: 200px;
 }
@@ -123,13 +121,13 @@ a:hover {
   margin: 10px;
 }
 .clock {
-display: flex;
-align-items: center;
-justify-content: space-around;
-margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px;
 }
 .menu a:hover {
-color: #e45d19;
+  color: #e45d19;
 }
 @media (min-width: 560px) {
   .words {
@@ -139,9 +137,9 @@ color: #e45d19;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.5);
   }
-.menu {
-  display: flex;
-}
+  .menu {
+    display: flex;
+  }
 }
 .verh {
   font-family: "Prata", serif;
@@ -175,7 +173,7 @@ color: #e45d19;
   display: block;
   text-align: center;
 }
-.soave{
+.soave {
   width: 100%;
 }
 /* Khrystyna  */
@@ -258,7 +256,6 @@ color: #e45d19;
   min-height: 35vh;
   background-position: right;
   margin: auto;
-
 }
 /* .varieties-of-wine {
   margin: 20px 20px 20px 280px;
@@ -274,7 +271,6 @@ color: #e45d19;
 .discover-our-wines-inside-text {
   text-align: center;
   color: #ffffff;
-  
 }
 
 .find-your-ideal-text {
@@ -523,7 +519,6 @@ color: #e45d19;
   width: 2%;
 }
 
-
 .red-wines-container {
   background-image: url(../img/bg-red-wine.webp);
   background-repeat: no-repeat;
@@ -534,7 +529,7 @@ color: #e45d19;
   position: relative;
   margin-top: 10%;
 }
-.red-wines-h1{
+.red-wines-h1 {
   position: absolute;
   top: 28%;
   left: 6%;
@@ -572,39 +567,41 @@ color: #e45d19;
   left: 6%;
 }
 .personal-discount {
-    background: rgba(200, 105, 58, 0.82); 
-    background-image: url(../img/bg-discount.png);
-    background-size: cover;
-    position: relative;
-    min-height: 350px;
-  }
-  .personal-discount h1 {
-    margin-top: 5%;
-    margin-left: 3%;
-    font-family: "Prata", serif;
-    font-size: 34px;
-  }
-  .personal-discount p {
-    margin-top: 5%;
-    margin-left: 3%;
-    font-family: "Rubik", sans-serif;
-    font-size: 18px;
-    margin-bottom: 10%;
-  }
-  .personal-discount a {
-    margin-top: 5%;
-    margin-left: 3%;
-  }
+  background: rgba(200, 105, 58, 0.82);
+  background-image: url(../img/bg-discount.png);
+  background-size: cover;
+  position: relative;
+  min-height: 350px;
+}
+.personal-discount h1 {
+  margin-top: 5%;
+  margin-left: 3%;
+  font-family: "Prata", serif;
+  font-size: 34px;
+}
+.personal-discount p {
+  margin-top: 5%;
+  margin-left: 3%;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  margin-bottom: 10%;
+}
+.personal-discount a {
+  margin-top: 5%;
+  margin-left: 3%;
+}
 
 @media (width: 560px) {
   .red-wines-container {
     min-width: 700px;
-  }}
-  
-  
+  }
+}
 
-
+<<<<<<< HEAD
+.callback-form {
+=======
 .callback-form-input{
+>>>>>>> a085901f5ea8b72388e8f6101a1f92617e177557
   background: transparent;
   padding: 10px 90px 15px 10px;
   color: var(--c-grey);
@@ -614,53 +611,49 @@ color: #e45d19;
   width: 100%;
 }
 
-  
-.callback-form-submit{
+.callback-form-submit {
   text-align: center;
   border: none;
   margin: 0px 5px 30px;
   width: 100%;
 }
-.btn-orange{
+.btn-orange {
   text-align: center;
-  
 }
 
 a:hover {
   text-decoration: none;
   color: #c8693a;
 }
-.social{
+.social {
   display: flex;
-  justify-content:left;
+  justify-content: left;
   padding: 0px;
   margin: 0;
-  
 }
-.contact-form{
-  padding:50px 0 0;
+.contact-form {
+  padding: 50px 0 0;
 }
 .content-section {
   margin: 0 50px 0;
-  
 }
-.background-footer{
-  padding: 10px 0 ;
+.background-footer {
+  padding: 10px 0;
 }
- 
- .incta-cork,
- .incta-bottles,
- .incta-man,
- .incta-grapes,
- .incta-fruit, 
- .incta-glass{
-   margin-right: 10px;
-   margin-bottom: 10px;
- }
- .background-footer-2{
-  padding: 10px 50px ; 
- }
- .text-title-reseved{
+
+.incta-cork,
+.incta-bottles,
+.incta-man,
+.incta-grapes,
+.incta-fruit,
+.incta-glass {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.background-footer-2 {
+  padding: 10px 50px;
+}
+.text-title-reseved {
   text-align: end;
  }
 
