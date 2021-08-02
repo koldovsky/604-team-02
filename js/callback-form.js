@@ -1,17 +1,20 @@
 const submitBtn = document.querySelector('#modal-active');
-  const modalActive = document.querySelector("#request-received");
+const modalActive = document.querySelector("#request-received");
+const modalOff = document.querySelector("#off");
 
-  submitBtn.addEventListener('click', hide-show);
-  function hide-show (){
-      alert ('njhjj')
-  }; 
 
-  
-  
+submitBtn.onclick = function () {
+  modalActive.style.display = 'block';
+};
+modalOff.onclick = function asd() {
+  modalActive.style.display = 'none';
+};
+
+
 // //   const callbackForm = document.querySelector('.callback-form-container');
 // //   const requestReceivedModal = document.querySelector('#request-received');
 
-  
+
 //   const userName = document.querySelector('#callback-form-input-name');
 //   const userEmail = document.querySelector('#callback-form-input-email');
 //   const userPhone = document.querySelector('#callback-form-input-phone');
