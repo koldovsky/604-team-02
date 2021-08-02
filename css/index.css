@@ -655,9 +655,6 @@ a:hover {
 }
 .text-title-reseved {
   text-align: end;
-<<<<<<< HEAD
-}
-=======
  }
 
 
@@ -688,6 +685,7 @@ a:hover {
 
 /* REQUEST RECEIVED MODAL */
 .modal-request-received{
+  display: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -735,4 +733,3 @@ a:hover {
 
 
  
->>>>>>> a085901f5ea8b72388e8f6101a1f92617e177557
