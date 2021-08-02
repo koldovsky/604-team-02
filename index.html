@@ -948,18 +948,26 @@
                   <div class="col text-paragraph ">Learn more about wines and our special offers with our weekly digests.</div>
                 </div>
               </div>
-              <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                <div class="">
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 " id="callback-form">
+                <form  action="" class="callback-form-container">
                   <div class="callback-form-input-container ">
-                    <input type="text" class="row callback-form" placeholder="Name" id="callback-form-input-name"/>
-                    <input type="email" class="row callback-form" placeholder="Email"id="callback-form-input-email"/>
-                    <input type="tel" class="row callback-form" placeholder="+380 (__) ___-__-__"  id="callback-form-input-phone"/>
+                    <input type="text" class="row callback-form-input" placeholder="Name" id="callback-form-input-name"/>
+                    <input type="email" class="row callback-form-input" placeholder="Email"id="callback-form-input-email"/>
+                    <input type="tel" class="row callback-form-input" placeholder="+380 (__) ___-__-__"  id="callback-form-input-phone"/>
                 
                 </div>
-                
-                <button class=" btn-orange callback-form-submit ">Submit</button>
-                </div>
+                <input type="submit" class="callback-form-submit accent-btn btn-orange callback-form-submit " value="Submit"/>
+                <!-- <button class=" btn-orange callback-form-submit ">Submit</button> -->
+                </form>
               </div>
+              <div class="modal modal-request-received " id="active">
+                <div class="request-received-container">
+                    <i class="fas fa-times modal-close-btn"></i>
+                    <h3 class="request-received-title">Thank you!</h3>
+                    <p class="request-received-primary-msg">We will contact you shortly.</p>
+                    <button class=" btn-orange callback-form-submit ">Ok</button>
+              </div>
+            </div>
             </div>
           </div>
       </section>
@@ -979,6 +987,9 @@
                     <p class="the-beginning-text">+1 (234) 567 89 00</p>
                     <p class="the-beginning-text">1111 White Ln, St Helena, CA 94574</p>
                     <div class="social">
+                      <a href="https://twitter.com/login?lang=uk"
+                  ><img src="img/icon-social/twitter.svg" alt="twitter"
+                /></a>
                       <a href="https://www.facebook.com/"
                         ><img src="img/icon-social/facebook.svg" alt="facebook"
                       /></a>
@@ -1064,7 +1075,12 @@
               </div>
             </section>
       </footer>
-      
+      <div class="cart-trigger_dq0" style="top: 104px; background-color: rgb(255, 255, 255); color: rgb(52, 46, 46);"><div class="counter_2mI" style="background-color: rgb(200, 105, 58); color: rgb(255, 255, 255);">7</div><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 13C7 11.8954 7.89543 11 9 11H27C28.1046 11 29 11.8954 29 13V28C29 30.2091 27.2091 32 25 32H11C8.79086 32 7 30.2091 7 28V13Z" 
+        stroke="#212736" stroke-width="2"></path><path d="M23 15V9C23 6.23858 20.7614 4 18 4V4C15.2386 4 13 6.23858 13 9V15" stroke="#212736" 
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+
+     
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
@@ -1075,6 +1091,7 @@
     <script src="js/clock.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/accordion.js"></script>
+    <script src="js/callback-form.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"

@@ -95,7 +95,7 @@ a:hover {
 .cali-logo {
   width: 200px;
 }
-}
+
 .logo-icon {
   display: flex;
   height: 44px;
@@ -604,7 +604,7 @@ color: #e45d19;
   
 
 
-.callback-form{
+.callback-form-input{
   background: transparent;
   padding: 10px 90px 15px 10px;
   color: var(--c-grey);
@@ -663,4 +663,79 @@ a:hover {
  .text-title-reseved{
   text-align: end;
  }
+
+
+ .cart-trigger_dq0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  right: 64px;
+  z-index: 2;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 1px rgb(33 39 54 / 4%), 0 2px 4px rgb(33 39 54 / 16%);
+  box-shadow: 0 0 1px rgb(33 39 54 / 4%), 0 2px 4px rgb(33 39 54 / 16%);
+}
+
+
+/* REQUEST RECEIVED MODAL */
+.modal-request-received{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+.request-received-container{
+ text-align: center;
+ background: #261e1c;;
+ padding: 80px 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+}
+.request-received-title{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 0;
+
+}
+.request-received-primary-msg{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 0;
+
+}
+.request-received-secondary-msg{
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  width: 185px;
+  margin: 0;
+
+}
+
+
+
  
