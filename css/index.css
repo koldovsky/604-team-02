@@ -597,11 +597,7 @@ a:hover {
   }
 }
 
-<<<<<<< HEAD
-.callback-form {
-=======
 .callback-form-input{
->>>>>>> a085901f5ea8b72388e8f6101a1f92617e177557
   background: transparent;
   padding: 10px 90px 15px 10px;
   color: var(--c-grey);
@@ -684,8 +680,12 @@ a:hover {
 
 
 /* REQUEST RECEIVED MODAL */
-.modal-request-received{
+#active{
   display: none;
+
+}
+.modal-request-received{
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -700,7 +700,7 @@ a:hover {
  display: flex;
  flex-direction: column;
  align-items: center;
- justify-content: center;
+ justify-content  : center;
  position: relative;
 }
 .request-received-title{
