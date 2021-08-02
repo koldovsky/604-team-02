@@ -692,6 +692,7 @@ a:hover {
 
 /* REQUEST RECEIVED MODAL */
 .modal-request-received{
+  display: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -699,6 +700,7 @@ a:hover {
   box-sizing: border-box;
 }
 .request-received-container{
+  display: none;
  text-align: center;
  background: #261e1c;;
  padding: 80px 10px;
